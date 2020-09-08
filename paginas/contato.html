@@ -19,9 +19,9 @@
     <!-- Navbar -->
 
 <div class="topnav" id="myTopnav">
-<a href="#home" class="active">Apostilas</a>
+<a href="../index.html" class="active">Início</a>
 <a href="#news">Códigos</a>
-<a href="paginas/contato.html">Contato</a>
+<a href="contato.html">Contato</a>
 <a href="#about">Sobre</a>
 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 <i class="fa fa-bars"></i>
@@ -32,15 +32,25 @@
 <!-- Form Area -->
 
 <form>
-    <div class="row">
-        <input class="input">
-        <input class="input">
+    <div class="formContainer">
+        <div class="row">
+            <input type="text" placeholder="Digite seu nome">
+            <input type="text" placeholder="Digite seu sobrenome">
+        </div>
+        <div class="row">
+            <input class="input" type="text" placeholder="Digite seu E-mail">
+        </div> 
+        <div class="row">
+            <input class="input" type="text" placeholder="Assunto do E-mail">
+        </div>
+        <div class="row">
+            <textarea id="txtArea" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <div class="row">
+            <button id="btnSubmit" type="submit">Enviar</button>
+        </div>
+        
     </div>
-    <div class="row">
-        <input class="input">
-        <input class="input">
-    </div>
-
 </form>
 
 
